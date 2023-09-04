@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+.item {
+    margin: 10px;
+}
+
+.container {
+    display: flex ;
+    height: auto; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    padding: 12px;
+    background-image: url(bg1.jpg);
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.header {
+    height: 50vh;
+    background-image: url(priscilla-du-preez-dlxLGIy-2VU-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 100px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.h1style {
+    text-align: center; 
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+    font-weight: 500;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: white;
+
+}
+
+.spanh1style {
+    text-align: center;
+    font-size: 40px; 
+    color:black;
+    font-family: 'Bebas Neue', sans-serif;
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: white;
+}
+
+.pspan {
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.spandiv1 {
+    background-color:black; color:white;
+}
+
+.spandiv2 {
+    background-color:black; color:lightgreen;
+}
+
+.spandiv3 {
+    background-color:black; color:lightcoral;
+}
+
+.spandiv4 {
+    background-color:black; color:yellow;
+}
+
+.big{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(bg1.jpg);
+}
+
+table, th, td, tr{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+}
+
+.trcolor{
+    background-color: lightgoldenrodyellow;
+}
+
+tr:hover {
+    background-color: lightskyblue;
+}
+
+.tdstyle {
+    text-transform: capitalize;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+}
