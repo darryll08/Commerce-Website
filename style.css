@@ -179,4 +179,10 @@ tr:hover {
         -webkit-text-stroke-width: 0.8px;
         -webkit-text-stroke-color: white;
     }
+
+    table, th, td, tr{
+        border: 1.5px solid black;
+        border-collapse: collapse;
+        padding: 8px;
+    }
 }
