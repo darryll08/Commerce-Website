@@ -183,6 +183,6 @@ tr:hover {
     table, th, td, tr{
         border: 1.5px solid black;
         border-collapse: collapse;
-        padding: 8px;
+        padding: 5px;
     }
 }
