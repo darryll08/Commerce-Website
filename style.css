@@ -109,6 +109,12 @@ tr:hover {
     text-transform: capitalize;
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 700;
+    font-size: 20px;
+}
+
+.tableimage{
+    width: 150px;
+    height: 150px;
 }
 
 @media screen and (max-width: 768px){
@@ -137,5 +143,40 @@ tr:hover {
         background-image: url(assets/bg1.jpg);
         background-attachment: fixed;
         flex-direction: column-reverse;
+    }
+
+    .tableimage{
+        width: 110px;
+        height: 110px;
+    }
+
+    .tdstyle {
+        text-transform: capitalize;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+    }
+
+    .header {
+        height: 50vh;
+        background-image: url(assets/priscilla-du-preez-dlxLGIy-2VU-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        font-size: 75px;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .spanh1style {
+        text-align: center;
+        font-size: 35px; 
+        color:black;
+        font-family: 'Bebas Neue', sans-serif;
+        -webkit-text-stroke-width: 0.8px;
+        -webkit-text-stroke-color: white;
     }
 }
