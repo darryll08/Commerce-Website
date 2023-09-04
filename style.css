@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.portrait{
+    max-width: 100%;
+    max-height: 350px;
+}
+
 h1, h2, p {
     text-align: center;
 }
@@ -20,6 +25,7 @@ h1, h2, p {
     padding: 12px;
     background-image: url(assets/bg1.jpg);
     font-family: 'Nunito Sans', sans-serif;
+    background-attachment: fixed;
 }
 
 .header {
@@ -82,6 +88,7 @@ h1, h2, p {
     align-items: center;
     text-align: center;
     background-image: url(assets/bg1.jpg);
+    background-attachment: fixed;
 }
 
 table, th, td, tr{
@@ -102,4 +109,33 @@ tr:hover {
     text-transform: capitalize;
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 700;
+}
+
+@media screen and (max-width: 768px){
+    .container {
+        display: flex ;
+        height: auto; 
+        flex-direction: column; 
+        justify-content: space-between; 
+        padding: 12px;
+        background-image: url(assets/bg1.jpg);
+        font-family: 'Nunito Sans', sans-serif;
+    }
+
+    .item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .big{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-image: url(assets/bg1.jpg);
+        background-attachment: fixed;
+        flex-direction: column-reverse;
+    }
 }
