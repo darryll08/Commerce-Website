@@ -18,13 +18,13 @@ h1, h2, p {
     flex-direction: row; 
     justify-content: space-between; 
     padding: 12px;
-    background-image: url(bg1.jpg);
+    background-image: url(assets/bg1.jpg);
     font-family: 'Nunito Sans', sans-serif;
 }
 
 .header {
     height: 50vh;
-    background-image: url(priscilla-du-preez-dlxLGIy-2VU-unsplash.jpg);
+    background-image: url(assets/priscilla-du-preez-dlxLGIy-2VU-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
