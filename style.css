@@ -42,6 +42,29 @@ h1, h2, p {
     flex-direction: column;
 }
 
+.main-header {
+    background-color: bisque;
+    padding-left: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.header-info {
+    text-align: left;
+}
+
+.header-info a{
+    padding: 0;
+    text-decoration: none;
+    color: black;
+    -webkit-text-stroke-width: 0.25px;
+    -webkit-text-stroke-color: white;
+}
+
+.header-info a:hover {
+    background-color : transparent  
+}
+
 .h1style {
     text-align: center; 
     font-family: 'Bebas Neue', sans-serif;
@@ -116,6 +139,52 @@ tr:hover {
     width: 150px;
     height: 150px;
 }
+
+footer{
+    background-color: black;
+}
+
+.main-footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.left-footer{
+    margin-right: auto;
+    margin-left: 40px;
+}
+
+.right-footer{
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.center-footer {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.info-left {
+    color: bisque;
+    text-align: left;
+    width: 100%;
+}
+
+.info-right{
+    color: bisque;
+    text-align:right;
+    width: 100%;
+}
+
+.info-center{
+    color:bisque;
+    text-align: center;
+    width: 100%;
+    padding-top: 5px;
+    border-top: 1px solid bisque;
+}
+
 
 @media screen and (max-width: 768px){
     .container {
